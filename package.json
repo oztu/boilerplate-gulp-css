@@ -1,0 +1,47 @@
+{
+  "name": "boilerplate-gulp-css",
+  "version": "1.0.0",
+  "description": "Boilerplate gulp tasks for CSS",
+  "keywords": [
+    "gulp",
+    "boilerplate",
+    "less",
+    "recess",
+    "csso"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "author": {
+    "name": "Ozan Turgut",
+    "email": "ozanturgut@gmail.com",
+    "url": "http://ozan.io"
+  },
+  "licenses": [
+    {
+      "type": "Apache License 2.0",
+      "url": "https://github.com/oztu/boilerplate-gulp-css/blob/master/LICENSE-APACHE2"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oztu/boilerplate-gulp-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oztu/boilerplate-gulp-css/issues"
+  },
+  "homepage": "https://github.com/oztu/boilerplate-gulp-css",
+  "dependencies": {
+    "del": "^1.1.1",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-less": "^3.0.2",
+    "gulp-recess": "^1.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.1"
+  },
+  "devDependencies": {
+    "gulp": "gulpjs/gulp.git#4.0"
+  }
+}
